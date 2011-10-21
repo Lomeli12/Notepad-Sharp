@@ -13,7 +13,8 @@ Notepad# is licensed under GPL version 2.0 Copyright &copy; 1989, 1991 Free Soft
 Notepad# uses a few additional open-source componets:
 
    1. the Scintilla project provides the core of the editor(http://www.scintilla.org/).
-   2. ScintillaNET allows Scintilla to be used within a .NET application.(http://www.codeplex.com/ScintillaNET)
+   2. ScintillaNET allows Scintilla to be used within a .NET application(http://www.codeplex.com/ScintillaNET),
+   3. GUP(Generic Updater for Win32) that allows Notepad# to update.(http://gup-win32.tuxfamily.org/)
    
 Please visit the home pages of these projects to learn more.
    
@@ -40,6 +41,16 @@ All Rights Reserved
 Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.
 
 GARRETT SERACK AND ALL EMPLOYERS PAST AND PRESENT DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL GARRETT SERACK AND ALL EMPLOYERS PAST AND PRESENT BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+### License for GUP
+
+Copyright 2007-2010 Don HO <don.h@free.fr>
+
+All Rights Reserved
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. 
 
 ## Project Details:
 
