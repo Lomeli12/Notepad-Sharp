@@ -1,60 +1,47 @@
-What is GUP?
-------------
+------What is Sharp-Updater------
 
-GUP for w32 is a Generic Updater running under Windows environment.
-The aim of GUP is to provide a ready to use and configurable updater
-which downloads a update package then installs it. By using cURL library
-and TinyXml module, GUP is capable to deal with http protocol and process XML data.
+Sharp-Updater is a Generic Updater running under .NET environment.
 
+The aim of Sharp-Updater is to provide a ready to use and configurable updater which downloads a update package then installs it, much like GUP.
 
-Why GUP?
---------
+------Why Sharp-Updater?------
 
-Originally GUP was made for the need of Notepad++ (a generic source code editor under MS Windows).
-During its conception, the idea came up in my mind : if it can fit Notepad++, it can fit for any Windows program.
-So here it is, with LGPL license to have no (almost not) restriction for integration in any project.
+Sharp-Updater was created for the upcoming Notepad# project. I wanted to use GUP, just like Notepad++, but decided “What the hell” and made my own updater in C# based off of GUP.
 
+Just like GUP, Sharp-Updater has be programmed so that anyone can use it with there programs by just editing two files. It has a tiny footprint(though not as tiny as GUP). It’s also licensed under the LGPL.
 
+------How does Sharp-Updater work?------
 
-How does it work?
-------------------
+Sharp-Updater can be launched by your program or manually.
+Just like GUP, it reads from a xml configuration file for getting the current version of your program and url where Sharp-Updater gets update information, checks the url (with given current version) to get the update package location, downloads the update package, then run the update package (it MUST be an exe) in question.
 
-GUP can be launched by your program or manually. It reads from a xml configuration file
-for getting the current version of your program and url where GUP gets update information,
-checks the url (with given current version) to get the update package location,
-downloads the update package, then run the update package (it should be a msi or an exe) in question.
+However, Sharp-Updater’s process has been shortened to 3 variables client side and only 2 variables server side. Sharp-Updater checks the difference in the xml files itself(Oh yeah, Sharp-Updater uses two xml files unlike GUP using a php and an xml file).
 
+----So what do you need to use it?----
 
+A url to provide the update information to your Sharp-Updater and an another url location to store your update package, that’s it!
+
+----And then?----
+
+All you have to do is point Sharp-Updater to your url update page (by modifying info.xml), then work on your pointed url update page (see Update.xml comes with the release) to make sure it responds to your Sharp-Updater with the correct xml data.
+
+------Notable Differences------
+
+    - Noticeable smaller. Sharp-Updater is only 12KB(Sharp-Updater and Info.XML), while GUP is 390KB(GUP, gup.xml, libcurl.dll)
+	- Doesn't use an extra DLL
+    - Written in C# as opposed to C++
+
+------Who & whom------
 
 Who will need it?
------------------
 
-Being LGPLed, GUP can be integrated in both commercial (or close source) and open source project.
-So if you run a commercial or open a source project under MS Windows
-and you release your program at regular intervals, then you may need GUP
-to notice your users the new update.
+Being LGPLed, Sharp-Updater can be integrated in both commercial (or close source) and open source project.
+So if you run a commercial or open a source project under MS Windows and you release your program at regular intervals, then you may need Sharp-Updater to notice your users the new update.
 
+To whom should you say “thank you”?
 
+Anthony Lomeli
 
-What do you need to use it?
----------------------------
+------NOTE------
 
-A url to provide the update information to your GUP and an another url location
-to store your update package, that's it!
-
-
-
-How is GUP easy to use?
------------------------
-
-All you have to do is point GUP to your url update page (by modifying gup.xml), 
-then work on your pointed url update page (see getDownLoadUrl.php comes with the release)
-to make sure it responds to your GUP with the correct xml data.
-
-
-
-To whom should you say "thank you"?
------------------------------------
-
-Don HO
-<don.h@free.fr>
+When you upload and Update.xml, give it a few minutes to update worldwide. Just like anything you upload via FTP, many programs(including Sharp-Updater) won't notice the change for a while.

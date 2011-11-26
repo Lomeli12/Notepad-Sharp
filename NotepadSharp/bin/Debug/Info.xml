@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+	This file is the frontend for Sharp-Updater.
+	You need this along side Sharp-Updater.exe to check for updates.
+	
+	Sharp-Updater is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Sharp-Updater is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with Sharp-Updater. If not, see <http://www.gnu.org/licenses/>.
+-->
+<root>
+<!--
+	TIP!
+	
+	Think you made a mistake on this file. Open the file up in a webbrowser.
+	I'd recommend Firefox or IE.
+	
+	If there are no errors, the webbrowser should display everything execpt these
+	comments. If there are errors, it'll usually tell you where.
+-->
+<!-- Where you uploaded Update.xml -->
+<updatexml>http://anthony-lomeli.co.cc/NotepadS/Update.xml</updatexml>
+<!-- The version number of the software Sharp-Updater came with -->
+<Installedversion>Pre-Beta</Installedversion>
+<!-- The name of your software -->
+<ProgramName>Notepad#</ProgramName>
+</root>

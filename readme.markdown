@@ -14,7 +14,7 @@ Notepad# uses a few additional open-source componets:
 
    1. the Scintilla project provides the core of the editor(http://www.scintilla.org/).
    2. ScintillaNET allows Scintilla to be used within a .NET application(http://www.codeplex.com/ScintillaNET),
-   3. GUP(Generic Updater for Win32) that allows Notepad# to update.(http://gup-win32.tuxfamily.org/)
+   3. Sharp-Updater(C# Updater) that allows Notepad# to update.(http://anthony-lomeli.co.cc/sharp-updater)
    
 Please visit the home pages of these projects to learn more.
    
@@ -42,9 +42,9 @@ Permission to use, copy, modify, and distribute this software and its documentat
 
 GARRETT SERACK AND ALL EMPLOYERS PAST AND PRESENT DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL GARRETT SERACK AND ALL EMPLOYERS PAST AND PRESENT BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-### License for GUP
+### License for Sharp-Updater
 
-Copyright 2007-2010 Don HO <don.h@free.fr>
+Copyright 2011 Anthony Lomeli <anthonylomeli11@gmail.com>
 
 All Rights Reserved
 

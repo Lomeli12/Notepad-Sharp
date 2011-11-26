@@ -25,5 +25,19 @@ namespace NotepadSharp
         {
             System.Diagnostics.Process.Start("http://anthony-lomeli.co.cc/notepad");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (this.Width == 424)
+            {
+                this.Width = 905;
+                button2.Text = "Less info";
+            }
+            else if (this.Width == 905)
+            {
+                this.Width = 424;
+                button2.Text = "More info";
+            }
+        }
     }
 }

@@ -124,6 +124,35 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.</value>
   </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Made in: Microsoft Visual Studio Professional
+Language: C# (duh)
+
+Hosted on: 
+Website - ByetHost
+Source Code - GitHub
+
+Icon: from the XP iCandy 3.1 by Iconaholic, also in blue: http://findicons.com/icon/26439/notepad2
+
+Updater Software: Sharp-Updater, the Generic Updater for the .NET Enviroment, by me :P https://github.com/Lomeli12/Sharp-Updater
+
+Framework: .NET 4.0
+
+Components:
+Scintilla, Copyright © 1999-2011 http://www.scintilla.org/
+Scintilla.NET, Copyright © 2006-2011 jsanders
+
+How long till I finish this project: It might never be "finished" as I'm working on it alone and I'll, more than likely, add features that I think Notepad++ should have but, unfortunately, it doesn't at this time.
+
+Favorite Color: Red
+Favorite Video Game: Kingdom Hearts 2: Final Mix
+Favorite Movie: Shaun of the Dead
+Favorite Soda: Coca-Cola
+
+Twitter Name: @Lomeli1112
+
+I like pie ♥</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

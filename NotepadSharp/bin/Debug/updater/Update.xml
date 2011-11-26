@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--
+	This file is the backend for Sharp-Updater.
+	It is required, for Sharp-Updater to function properly, to be on a online server.
+	
+	Sharp-Updater is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Sharp-Updater is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with Sharp-Updater. If not, see <http://www.gnu.org/licenses/>.
+-->
+<root>
+<!--
+	TIP!
+	
+	Think you made a mistake on this file. Open the file up in a webbrowser.
+	I'd recommend Firefox or IE.
+	
+	If there are no errors, the webbrowser should display everything execpt these
+	comments. If there are errors, it'll usually tell you where.
+-->
+<!-- Place the version number for latest version of your software here. -->
+<LatestVersion>Pre-Beta</LatestVersion>
+<!-- Place the server location for the installer of the newest version of your software here. -->
+<InstallerURL>None at the moment</InstallerURL>
+<!-- Place the actual name of the installer here. -->
+<InstallerNAME>None at the moment</InstallerNAME>
+</root>

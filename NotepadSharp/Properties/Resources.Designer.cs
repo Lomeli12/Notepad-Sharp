@@ -60,6 +60,20 @@ namespace NotepadSharp.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap arrow_redo {
+            get {
+                object obj = ResourceManager.GetObject("arrow_redo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap arrow_undo {
+            get {
+                object obj = ResourceManager.GetObject("arrow_undo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap cross {
             get {
                 object obj = ResourceManager.GetObject("cross", resourceCulture);
@@ -98,6 +112,20 @@ namespace NotepadSharp.Properties {
         internal static System.Drawing.Bitmap folder_page {
             get {
                 object obj = ResourceManager.GetObject("folder_page", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap help {
+            get {
+                object obj = ResourceManager.GetObject("help", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap money_add {
+            get {
+                object obj = ResourceManager.GetObject("money_add", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -147,6 +175,20 @@ namespace NotepadSharp.Properties {
         internal static System.Drawing.Bitmap printer {
             get {
                 object obj = ResourceManager.GetObject("printer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap server_connect {
+            get {
+                object obj = ResourceManager.GetObject("server_connect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap world {
+            get {
+                object obj = ResourceManager.GetObject("world", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -97,6 +97,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="notepad.ico" />
+    <None Include="Resources\arrow_redo.png" />
+    <None Include="Resources\arrow_undo.png" />
+    <None Include="Resources\server_connect.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\money_add.png" />
+    <None Include="Resources\world.png" />
     <None Include="Resources\page_paste.png" />
     <None Include="Resources\page_copy.png" />
     <None Include="Resources\cut_red.png" />

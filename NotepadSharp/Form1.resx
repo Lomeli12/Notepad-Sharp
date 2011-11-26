@@ -120,23 +120,25 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>126, 17</value>
   </metadata>
-  <data name="scintilla1.Text" xml:space="preserve">
-    <value>To Ben
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>702, 17</value>
+  </metadata>
+  <data name="newtext.Text" xml:space="preserve">
+    <value>Stuff that works:
+• Code Highlighting for all languages except Java and INNO
+• Updater
+• Multiple Tabs
+• Closing Tabs
+• Saving Files
+• Opening Files
+• Various little stuff(Copying, Cutting, etc)
 
-     Please note this program is still pretty glitchy, so here's what does and doesn't work.
-Works:
-- Code highlighting for all langauages except PHP for some reason
-- Opening and saving files
-- Code folding
-- Closing new tabs
-
-Doesn't work:
-- New tabs. Clicking new file makes a new tab, but it puts  the textbox from the last tab 
-onto the new one
-- Cut, Copy, Paste, Delete, and Select all buttons(though you can just do that with your
-keyboard or right-clicking
-- Printing
-- Updates since there's no updates :D</value>
+Stuff that needs to be fixed
+• Opening stuff in other tabs
+• saving stuff from other tabs
+• Closing all but active tab function
+• Specific files extensions in Open file and save file dialogs
+• Printing</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>366, 17</value>
