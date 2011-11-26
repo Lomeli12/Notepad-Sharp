@@ -12,9 +12,9 @@ Notepad# is licensed under GPL version 2.0 Copyright &copy; 1989, 1991 Free Soft
 
 Notepad# uses a few additional open-source componets:
 
-   1. the Scintilla project provides the core of the editor(http://www.scintilla.org/).
-   2. ScintillaNET allows Scintilla to be used within a .NET application(http://www.codeplex.com/ScintillaNET),
-   3. Sharp-Updater(C# Updater) that allows Notepad# to update.(http://anthony-lomeli.co.cc/sharp-updater)
+   1. the [Scintilla](http://www.scintilla.org/) project provides the core of the editor.
+   2. [Scintilla.NET](http://www.codeplex.com/ScintillaNET) allows Scintilla to be used within a .NET application,
+   3. [Sharp-Updater](http://anthony-lomeli.co.cc/sharp-updater)(C# Updater) that allows Notepad# to update.
    
 Please visit the home pages of these projects to learn more.
    
