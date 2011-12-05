@@ -27,9 +27,9 @@
 	comments. If there are errors, it'll usually tell you where.
 -->
 <!-- Place the version number for latest version of your software here. -->
-<LatestVersion>Pre-Beta</LatestVersion>
+<LatestVersion>1.0</LatestVersion>
 <!-- Place the server location for the installer of the newest version of your software here. -->
-<InstallerURL>None at the moment</InstallerURL>
+<InstallerURL>http://www.anthony-lomeli.co.cc/NotepadS/Installers/</InstallerURL>
 <!-- Place the actual name of the installer here. -->
-<InstallerNAME>None at the moment</InstallerNAME>
+<InstallerNAME>NotepadSharp1_0.exe</InstallerNAME>
 </root>

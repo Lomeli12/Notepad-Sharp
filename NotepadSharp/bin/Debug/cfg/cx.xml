@@ -3,19 +3,37 @@
 <!-- Here are the keywords for the languages Notepad# uses. DO NOT MODIFY THE PRE-BUILT ONES
 	If you want to add your own custome language, please use this guideline and place them AFTER
 	the main languages.
-	<Language name="Language_name" ext="Quick_abbr_for_the_language" commentLine="" commentStart="" commentEnd="">
-		<Lexer LexerName="Abbr for a language thats already supported, in case they have similar keywords"></Lexer>
-		<Keywords name="Type of keywords, valued as type1, type2, type3, type4, type5, instre1, or instre2">
-		List all the keywords for that type of keyword. seperate them with spaces
-		</Keywords>
+	<LanguageName>(for organization, put as comment)
+		<Language Name="Language_name" ext="Quick_abbr_for_the_language_same_as_<Language ext>" commentLine="" commentStart="" commentEnd="">
+			<Lexer LexerName="Abbr for a language thats already supported, in case they have similar keywords">
+			<Keywords name="Type of keywords, valued as WORD + a number">
+			List all the keywords for that type of keyword. seperate them with spaces
+			</Keywords>
+			</Lexer>
+			<Styles>Look at Java's, self explanitory</Styles>
+		</Language>
 	</Language>
 -->
-	<Language name="java" ext="java" commentLine="//" commentStart="/*" commentEnd="*/">
-		<Lexer LexerName="cpp"></Lexer>
-		<Keywords name="instre1">instanceof assert if else switch case default break goto return for while do continue new throw throws try catch finally this super extends implements import true false null</Keywords>
-		<Keywords name="type1">package transient strictfp void char short int long double float const static volatile byte boolean class interface native private protected public final abstract synchronized enum</Keywords>
-	</Language>
+	<!--Java-->
+		<Language Name="java" ext="java" commentLine="//" commentStart="/*" commentEnd="*/">
+			<Lexer LineCommentPrefix="//" StreamCommentPrefix="/* " StreamCommentSuffix=" /*" LexerName="cpp">
+			<Indentation TabWidth="4" SmartIndentType="cpp" />
+			<Keywords List="0" Inherit="False">instanceof assert if else switch case default break goto return for while do continue new throw throws try catch finally this super extends implements import true false null</Keywords>
+			<Keywords List="1" Inherit="False">>package transient strictfp void char short int long double float const static volatile byte boolean class interface native private protected public final abstract synchronized enum out</Keywords>
+			</Lexer>
+		</Language>
+	<!--/Java-->
+	<Styles>
+		<Style Name="DOCUMENT_DEFAULT" FontName="Verdana" Size="10"/>
+		<Style Name="COMMENT" ForeColor="Green" />
+		<Style Name="COMMENTLINE" ForeColor="Green" />
+		<Style Name="NUMBER" ForeColor="Orange"/>
+		<Style Name="WORD" ForeColor="Blue" Bold="Yes"/>
+		
+	</Styles>
+		
+	
 <!-- Add your custom languages here -->
 
 <!-- Don't add anymore after here -->
-</ScintillaNet>
+</ScintillaNET>

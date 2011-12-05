@@ -29,7 +29,7 @@
 <!-- Where you uploaded Update.xml -->
 <updatexml>http://anthony-lomeli.co.cc/NotepadS/Update.xml</updatexml>
 <!-- The version number of the software Sharp-Updater came with -->
-<Installedversion>Pre-Beta</Installedversion>
+<Installedversion>1.0</Installedversion>
 <!-- The name of your software -->
 <ProgramName>Notepad#</ProgramName>
 </root>

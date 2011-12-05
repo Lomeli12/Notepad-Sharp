@@ -17,14 +17,14 @@ namespace NotepadSharp
         {
             InitializeComponent();
         }
-
+        Scintilla newtext = new Scintilla();
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string title = "New" + (tabControl1.TabCount + 1).ToString();
+            string title = "New " + (tabControl1.TabCount + 1).ToString();
             string newtextt = title;
             TabPage myTabPage = new TabPage(title);
-            ScintillaNet.Scintilla newtext = new ScintillaNet.Scintilla();
             myTabPage.Controls.Add(newtext);
+            myTabPage.Tag = "1";
             newtext.AllowDrop = true;
             newtext.AutoComplete.DropRestOfWord = true;
             newtext.AutoComplete.ListString = "";
@@ -132,10 +132,11 @@ namespace NotepadSharp
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            string title = "New" + (tabControl1.TabCount + 1).ToString();
+            string title = "New " + (tabControl1.TabCount + 1).ToString();
             TabPage myTabPage = new TabPage(title);
             ScintillaNet.Scintilla newtext = new ScintillaNet.Scintilla();
             myTabPage.Controls.Add(newtext);
+            myTabPage.Tag = "1";
             newtext.AllowDrop = true;
             newtext.AutoComplete.DropRestOfWord = true;
             newtext.AutoComplete.ListString = "";
@@ -251,249 +252,247 @@ namespace NotepadSharp
             Application.Exit();
         }
         //LANGUAGES!
-        //private string texter(string texter)
-        //{
-            
-        //}
+        //Some languages are so similar, it's easier to use the same lexer than make a custome one. Anyone who wants to make one for me just for a
+
         private void adaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "ada";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "ada";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void aSPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "asm";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "asm";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void batchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "batch";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "batch";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void blizToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "blitsbasic";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "blitsbasic";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void cToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "cs";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "cs";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void cToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "cpp";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "cpp";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void camToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "caml";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "caml";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void cmakeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "cmake";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "cmake";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void cSSToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "css";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "css";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void dToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "d";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "d";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void diffToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "diff";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "diff";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void fortanToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "fortran";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "fortran";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void gAPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "gap";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "gap";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void gui4CliToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "gui4cli";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "gui4cli";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void haskellToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "haskell";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "haskell";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void hTMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "hypertext";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "html";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void iNNOToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "innosetup";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "inno";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void javascriptToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "js";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "js";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void javaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.CustomLocation = Environment.CurrentDirectory + @"\cfg\cx.xml";
-            newtext.ConfigurationManager.Language = "java";
-            newtext.Refresh();
+            //((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.CustomLocation = @"cfg\cx.xml";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "cs";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void kIXTartToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "kix";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "kix";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void lISPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "lisp";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "lisp";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void lunaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "lua";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "lua";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void makeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "make";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "make";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void matLabToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "matlab";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "matlab";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void normalTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void nSISToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "nsis";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "nsis";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void octaveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "octave";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "octave";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void pascalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "pascal";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "pascal";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void perlToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "perl";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "perl";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void pHPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "hypertext";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "html";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void pythonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "python";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "python";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void rubyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "ruby";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "ruby";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void smalltalkToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "smalltalk";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "smalltalk";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void sQLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "sql";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "sql";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void tCLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "tcl";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "tcl";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void teXToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "tex";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "tex";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void vBToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "vb";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "vb";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void verilogToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "verilog";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "verilog";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void xMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "xml";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "xml";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
 
         private void yAMLToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            newtext.ConfigurationManager.Language = "yaml";
-            newtext.Refresh();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).ConfigurationManager.Language = "yaml";
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Refresh();
         }
         //End of Languages
         private string Read(string file)
@@ -509,14 +508,28 @@ namespace NotepadSharp
             if (this.openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string data = this.Read(this.openFileDialog1.FileName);
-                newtext.Text = data;
-                this.Text = "Notepad# - " + this.openFileDialog1.SafeFileName;
+                ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text = data;
+                tabControl1.SelectedTab.Text = this.openFileDialog1.SafeFileName;
+                tabControl1.SelectedTab.Tag = this.openFileDialog1.FileName;
+                this.Text = "Notepad# - " + this.openFileDialog1.FileName;
+                this.openFileDialog1.FileName = "";
             }
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           this.saveFileDialog1.ShowDialog();
+            if (this.Text == "Notepad#")
+            {
+                this.saveFileDialog1.ShowDialog();
+            }
+            else if (this.Text == "Notepad# - ")
+            {
+                this.saveFileDialog1.ShowDialog();
+            }
+            else if (this.Text != "Notepad#")
+            {
+                File.WriteAllText(tabControl1.SelectedTab.Tag.ToString(), ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text);
+            }
         }
 
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -526,7 +539,7 @@ namespace NotepadSharp
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-            File.WriteAllText(this.saveFileDialog1.FileName, this.newtext.Text);
+            File.WriteAllText(this.saveFileDialog1.FileName, ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text);
 
             this.Text = "Notepad# - " + this.saveFileDialog1.FileName;
         }
@@ -536,14 +549,28 @@ namespace NotepadSharp
             if (this.openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string data = this.Read(this.openFileDialog1.FileName);
-                newtext.Text = data;
-                this.Text = "Notepad# - " + this.openFileDialog1.SafeFileName;
+                ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text = data;
+                tabControl1.SelectedTab.Text = this.openFileDialog1.SafeFileName;
+                tabControl1.SelectedTab.Tag = this.openFileDialog1.FileName;
+                this.Text = "Notepad# - " + this.openFileDialog1.FileName;
+                this.openFileDialog1.FileName = "";
             }
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            this.saveFileDialog1.ShowDialog();
+            if (this.Text == "Notepad#")
+            {
+                this.saveFileDialog1.ShowDialog();
+            }
+            else if (this.Text == "Notepad# - ")
+            {
+                this.saveFileDialog1.ShowDialog();
+            }
+            else if (this.Text != "Notepad#")
+            {
+                File.WriteAllText(tabControl1.SelectedTab.Tag.ToString(), ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text);
+            }
         }
 
         private void toolStripButton4_Click(object sender, EventArgs e)
@@ -554,35 +581,35 @@ namespace NotepadSharp
 
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Clipboard.SetText(this.newtext.Selection.Text);
-            this.newtext.Selection.Clear();
+            System.Windows.Forms.Clipboard.SetText(((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Text);
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Clear();
         }
 
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Clipboard.SetText(this.newtext.Selection.Text);
+            System.Windows.Forms.Clipboard.SetText(((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Text);
         }
 
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string pasted = System.Windows.Forms.Clipboard.GetText();
-            this.newtext.InsertText(pasted);
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).InsertText(pasted);
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.newtext.Selection.Clear();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Clear();
         }
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.newtext.Selection.SelectAll();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.SelectAll();
         }
 
         private void toolStripButton8_Click(object sender, EventArgs e)
         {
-            System.Windows.Forms.Clipboard.SetText(this.newtext.Selection.Text);
-            this.newtext.Selection.Clear();
+            System.Windows.Forms.Clipboard.SetText(((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Text);
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Clear();
         }
 
         private void toolStripButton9_Click(object sender, EventArgs e)
@@ -593,12 +620,12 @@ namespace NotepadSharp
         private void toolStripButton10_Click(object sender, EventArgs e)
         {
             string pasted = System.Windows.Forms.Clipboard.GetText();
-            this.newtext.InsertText(pasted);
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).InsertText(pasted);
         }
 
         private void toolStripButton11_Click(object sender, EventArgs e)
         {
-            this.newtext.Selection.Clear();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).Selection.Clear();
         }
 
         private void donateDToolStripMenuItem_Click(object sender, EventArgs e)
@@ -613,12 +640,12 @@ namespace NotepadSharp
 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.newtext.UndoRedo.Undo();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).UndoRedo.Undo();
         }
 
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.newtext.UndoRedo.Redo();
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).UndoRedo.Redo();
         }
 
         private void newToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -628,6 +655,7 @@ namespace NotepadSharp
             TabPage myTabPage = new TabPage(title);
             ScintillaNet.Scintilla newtext = new ScintillaNet.Scintilla();
             myTabPage.Controls.Add(newtext);
+            myTabPage.Tag = "1";
             newtext.AllowDrop = true;
             newtext.AutoComplete.DropRestOfWord = true;
             newtext.AutoComplete.ListString = "";
@@ -660,14 +688,28 @@ namespace NotepadSharp
             if (this.openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string data = this.Read(this.openFileDialog1.FileName);
-                newtext.Text = data;
-                this.Text = "Notepad# - " + this.openFileDialog1.SafeFileName;
+                ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text = data;
+                tabControl1.SelectedTab.Text = this.openFileDialog1.SafeFileName;
+                tabControl1.SelectedTab.Tag = this.openFileDialog1.FileName;
+                this.Text = "Notepad# - " + this.openFileDialog1.FileName;
+                this.openFileDialog1.FileName = "";
             }
         }
 
         private void saveToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            this.saveFileDialog1.ShowDialog();
+            if (this.Text == "Notepad#")
+            {
+                this.saveFileDialog1.ShowDialog();
+            }
+            else if (this.Text == "Notepad# - ")
+            {
+                this.saveFileDialog1.ShowDialog();
+            }
+            else if (this.Text != "Notepad#")
+            {
+                File.WriteAllText(tabControl1.SelectedTab.Tag.ToString(), ((Scintilla)tabControl1.SelectedTab.Controls[0]).Text);
+            }
         }
 
         private void saveAsToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -713,5 +755,89 @@ namespace NotepadSharp
             else if (tabControl1.TabCount >= 1) { }
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string title = "New " + (tabControl1.TabCount).ToString();
+            string newtextt = title;
+            tabControl1.SelectedTab.Controls.Add(newtext);
+            tabControl1.SelectedTab.Text = title;
+            newtext.AllowDrop = true;
+            newtext.AutoComplete.DropRestOfWord = true;
+            newtext.AutoComplete.ListString = "";
+            newtext.Dock = System.Windows.Forms.DockStyle.Fill;
+            newtext.Folding.UseCompactFolding = true;
+            newtext.Location = new System.Drawing.Point(3, 3);
+            newtext.Margins.Margin0.Width = 20;
+            newtext.Margins.Margin1.IsClickable = true;
+            newtext.Margins.Margin1.IsFoldMargin = true;
+            newtext.Margins.Margin1.Width = 3;
+            newtext.Margins.Margin2.IsMarkerMargin = true;
+            newtext.Margins.Margin2.Width = 16;
+            newtext.Name = title;
+            newtext.Size = new System.Drawing.Size(783, 353);
+            newtext.Styles.BraceBad.FontName = "Verdana";
+            newtext.Styles.BraceLight.FontName = "Verdana";
+            newtext.Styles.ControlChar.FontName = "Verdana";
+            newtext.Styles.Default.FontName = "Verdana";
+            newtext.Styles.IndentGuide.FontName = "Verdana";
+            newtext.Styles.LastPredefined.FontName = "Verdana";
+            newtext.Styles.LineNumber.FontName = "Verdana";
+            newtext.Styles.Max.FontName = "Verdana";
+            newtext.TabIndex = 0;
+            openFileDialog1.FileName = "";
+        }
+
+        private void closeAllButAcitveDocumentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (tabControl1.Name != tabControl1.SelectedTab.Name)
+            {
+                tabControl1.TabPages.Clear();
+            }
+        }
+
+        private void tabControl1_Selected(object sender, TabControlEventArgs e)
+        {
+            if (tabControl1.TabCount < 1)
+            {
+                
+            }
+            else
+            {
+                this.Text = "Notepad# - " + tabControl1.SelectedTab.Tag;
+            }
+        }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).FindReplace.ShowFind();
+        }
+
+        private void toolStripButton12_Click(object sender, EventArgs e)
+        {
+            ((Scintilla)tabControl1.SelectedTab.Controls[0]).FindReplace.ShowFind();
+        }
+
+        private void toolStripButton7_Click(object sender, EventArgs e)
+        {
+            printDialog1.ShowDialog();
+        }
+
+        private void Form1_SizeChanged(object sender, EventArgs e)
+        {
+            int w = this.Size.Width - 805;
+            int h = this.Size.Height - 503;
+            int neww = 797 + w;
+            int newh = 392 + h;
+            tabControl1.Size = new Size(neww, newh);
+            this.Refresh();
+        }
+        /*
+        private void newtext_CharAdded(object sender, ScintillaNet.CharAddedEventArgs e)
+        {
+            string autoc = Environment.CurrentDirectory + @"\autoc.xml";
+            newtext.AutoComplete.List = @"\autoc.xml";
+            newtext.AutoComplete.Show();
+            newtext.AutoComplete.AutoHide = true;
+        }*/
     }
 }

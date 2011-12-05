@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NotepadSharp">
+</Property><Property Name="Solution File" Value="C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\NotepadSharp.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\NotepadSharp.suo">
+</Property><Property Name="Date" Value="Sunday, December 04, 2011">
+</Property><Property Name="Time" Value="18:15 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NotepadSharp.sln" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\NotepadSharp.sln">
+</Event><Event ErrorLevel="0" Project="" Source="NotepadSharp.suo" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\NotepadSharp.suo">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="NotepadSharp.csproj" Description="Project file successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\NotepadSharp.csproj">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Form1.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Form1.Designer.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Form2.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Form2.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Form2.Designer.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Form2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Program.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="app.config" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Properties\Settings.settings" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\mail_find.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\mail_find.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\arrow_redo.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\arrow_redo.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\arrow_undo.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\arrow_undo.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\server_connect.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\server_connect.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\help.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\help.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\money_add.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\money_add.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\world.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\world.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\page_paste.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\page_paste.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\page_copy.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\page_copy.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\cut_red.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\cut_red.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\printer.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\printer.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\page_white_stack_delete.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\page_white_stack_delete.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\page_white_delete.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\page_white_delete.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\door_out.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\door_out.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\disk_multiple.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\disk_multiple.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\disk.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\disk.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\folder_page.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\folder_page.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\page_white_add.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\page_white_add.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\cross.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\cross.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Resources\notepad.png" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Resources\notepad.png">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="notepad.ico" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\notepad.ico">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Form1.resx" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Form2.resx" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Form2.resx">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="Properties\Resources.resx" Description="File successfully backed up as C:\Users\Anthony\Documents\Visual Studio 2010\Projects\C#\NotepadSharp\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="NotepadSharp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="NotepadSharp" Source="NotepadSharp.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NotepadSharp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NotepadSharp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="NotepadSharp" Source="app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="NotepadSharp" Source="app.config" Description="Converted">
+</Event></UpgradeLog>
